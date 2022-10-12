@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  soccerstatistics:
+    image: soccerstatistics
+    build:
+      context: .
+      dockerfile: ./Dockerfile
